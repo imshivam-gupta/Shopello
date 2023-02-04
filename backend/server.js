@@ -56,7 +56,13 @@ app.use(express.static('uploads'))
 //     res.json(product)}
 // )
 
+// let __dirname = path.resolve()
+if (process.env.NODE_ENV === 'production') {
+    //*Set static folder up in production
+    app.use(express.static(path.join(__dirname,'../','/frontend/build')));
 
+    app.get('*', (req,res) => res.sendFile(path.resolve(__dirname,'../', 'frontend', 'build','index.html')));
+}
 
 const PORT = process.env.PORT || 4000
 //^ Finally staring the server on port mention in environment

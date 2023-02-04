@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif!important;
+}
+
+
+a{
+  text-decoration: none!important;
+}
+
+/* @media (min-width: 1200px){
+  .app-container{
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0% 5%;
+    max-width: 95%;
+  }
+} */
+
+
+
+.rating span{
+  margin: 0.05rem;
+}
+
+
+
+h3{
+  padding: 0.5rem 0rem;
+}
+
+
+.card-body{
+padding: 0.6rem!important;
+}
+
+.card-title{
+  font-size: 0.9rem;
+}
+
+.active-card-hover{
+  height: 23rem;
+  width: 18rem;
+}
+
+.navbar-nav span.navbar-brand:hover{
+  color:rgb(246, 160, 11);
+}
+
+h1{
+  font-size: 1.8rem;
+  padding: 0.7rem 0rem;
+}
+h2{
+  font-size: 1.4rem;
+}
+.product-cart-adder select.form-control{
+  padding:0rem 1.5rem;
+  height:auto;
+}
+
+.subtotal-card{
+  margin-top: 9.5vh;
+}
+
+.subtotal-card .btn-warning{
+  font-weight: 800;
+  border-radius: 1.5rem;
+}
+
+.go-back{
+  cursor: pointer;
+  margin-bottom: 0.8rem;
+}
+
+
+.nav-item{
+  color: rgba(178, 178, 178, 0.816)!important;
+}
+
+.nav-item:hover{
+  color: rgba(255, 255, 255, 0.816)!important;
+}
+
+.nav-link{
+  padding: 0px!important;
+}
+
+
+.product-card:hover{
+  scale: 1.1;
+  z-index: 2;
+  /* box-shadow: rgb(246, 160, 11); */
+}
+
+
+
+.app-row{
+  margin-right: 0px;
+  min-height: 80vh;
+  margin-bottom: 6rem;
+}
+
+.pagination{
+  justify-content: center;
+}
+
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  /* border-radius: 50%; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
+
+span.visually-hidden{
+  display: none;
+}
+
+.carousel-indicators{
+  display: none;
+}
